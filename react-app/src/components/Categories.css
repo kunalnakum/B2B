@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap') format('truetype');
+}
+
+.category{
+    font-family: 'CustomFont', sans-serif;
+}
+
+.category:hover{
+    background: gray;
+    border-radius: 20px;
+    color: black;
+}
+
+hr{
+    margin-top: -10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,7 @@
+.card {
+    width: 252px;
+    height: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,27 @@
+.btn123{
+    display: flex;
+    align-items: center;
+}
+
+.login-btn{
+    background: #0d6efd;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 20px;
+    text-align: center;
+    border: none;
+}
+
+.signup-btn{
+    background: #0d6efd;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+hr{
+    margin-top: 10px;
+}

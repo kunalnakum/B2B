@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap') format('truetype');
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    padding: 10px 20px;
+    background-color: #002f3408;
+    border-bottom: 3px solid #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.cat-container {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    padding: 8px 20px;
+
+}
+
+.mt-3 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.search {
+    margin-left: 50px;
+    outline: none;
+    padding-left: 10px;
+    width: 400px;
+    height: 44px;
+    border: 2px solid #002f34;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.search-btn {
+    height: 44px;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 0px 4px 4px 0px;
+    outline: none;
+    border: none;
+    padding: 0px 15px;
+}
+
+.logout-btn {
+    height: 35px;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 1px 16px;
+    margin-right: 10px;
+}
+
+.category {
+    color: rgba(0, 47, 52, 1);
+    padding: 7px;
+    cursor: pointer;
+}
+
+select {
+    word-wrap: normal;
+    margin-left: 640px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.logo-pointer{
+    cursor: pointer;
+}
+
+.login-btn-avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-btn-avatar a{
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    font-family: 'CustomFont', sans-serif;
+}
+
+.login-btn-avatar a:hover{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: gray;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.cat-container{
+    flex-direction: column;
+}
+.login-avatar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    flex-direction: column;
+}
